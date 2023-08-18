@@ -15,9 +15,9 @@ public class ReadService {
 
             while ((nextLine = reader.readNext()) != null) {
                 for (String str : nextLine) {
-                    System.out.println(str);
+                    System.out.print(str);
                 }
-                System.out.println("\n");
+                System.out.print("\n");
             }
         } catch (Exception ex) {
             ex.printStackTrace();
